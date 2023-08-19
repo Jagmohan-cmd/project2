@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&display=swap');
+*{
+    font-family: Bricolage Grotesque;
+}
+html {
+    scroll-behavior: smooth;
+  }
+nav{
+    justify-content: center;             
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+nav a:hover{
+    color: red;
+}
+nav img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#div-left{
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+}
+#div-left img{
+    padding-top: 5px;
+}
+
+.right{
+ display: flex;
+ justify-content: space-around;
+ width: 40%;
+margin-left: 60%;   
+}
+.right a{
+    margin-top: -50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+table{
+    border-collapse: collapse;
+    width: 98%;  
+}
+#table{
+    margin-left: 10px;  
+}
+#table > td{
+    height: 60%;
+
+}
+#book{
+    box-shadow: 5px 5px 10px 5px;
+    width: 62%;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+td{
+    text-align: left; 
+    padding-left: 25px;
+    height: 3vw;
+    font-size: 18px;
+}
+td:hover{
+    font-weight: 700;
+}
+th{
+    height: 3vw;
+    background-color: rgb(73, 72, 72);
+    color: skyblue;
+    font-size: 20px;
+}
+
+td:hover{
+background-color: rgb(223, 194, 253);
+}
+tr:nth-child(even){
+    background-color: rgb(212, 210, 213);
+}
+tr:nth-child(odd){
+    background-color: rgb(241, 240, 242);
+}
+th:hover{
+    background-color: skyblue;
+    color: rgb(73, 72, 72);
+}
+#register{
+    background-color: rgb(214, 237, 242);
+    box-shadow: 5px 5px 10px 5px;
+    width: 62%;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.input{
+    background-color: rgb(203, 206, 205);
+    font-weight: 600;
+}
+.input:hover{
+    background-color: rgb(231, 234, 233); 
+}
+.input:focus{
+    background-color: rgb(161, 175, 175);
+   font-weight: 700;
+}
+#register form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;  
+    width: 98%;  
+}
+label{
+    font-weight: 700;
+}
